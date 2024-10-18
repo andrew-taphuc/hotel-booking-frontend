@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:3010/api/v1/hotels",
+    baseURL: "http://hotel-booking-backend-azure.vercel.app/api/v1/hotels",
 })
